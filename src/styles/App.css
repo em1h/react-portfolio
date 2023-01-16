@@ -6,15 +6,15 @@
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  animation: welcome-slider 1s 1.75s ease-in-out forwards;
   -webkit-animation: welcome-slider 1s 1.75s ease-in-out forwards;
+  animation: welcome-slider 1s 1.75s ease-in-out forwards;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
 }
-@keyframes welcome-slider {
+@-webkit-keyframes welcome-slider {
   0% {
     transform: none;
   }
@@ -22,7 +22,7 @@
     transform: translateY(-100%);
   }
 }
-@-webkit-keyframes welcome-slider {
+@keyframes welcome-slider {
   0% {
     transform: none;
   }
@@ -50,10 +50,10 @@
   height: 100vh;
   z-index: 99;
   background: #ffa270;
-  animation: orange-slider 1s 1.75s ease-in-out forwards;
   -webkit-animation: orange-slider 1s 1.75s ease-in-out forwards;
+  animation: orange-slider 1s 1.75s ease-in-out forwards;
 }
-@keyframes orange-slider {
+@-webkit-keyframes orange-slider {
   0% {
     transform: translateY(100%);
   }
@@ -61,7 +61,7 @@
     transform: translateY(-100%);
   }
 }
-@-webkit-keyframes orange-slider {
+@keyframes orange-slider {
   0% {
     transform: translateY(100%);
   }
@@ -85,8 +85,8 @@
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   /* perspective: 100px; TODO: */
-  perspective: 100px;
   -webkit-perspective: 100px;
+  perspective: 100px;
 }
 .home:after {
   position: absolute;
@@ -96,17 +96,17 @@
   top: 90%;
   height: 40rem;
   background: #151515;
-  transform-origin: 0 0;
   -webkit-transform-origin: 0 0; 
-  animation: up-rotation 1s 4.2s cubic-bezier(0, 0, 1, 1) forwards;
+  transform-origin: 0 0;
   -webkit-animation: up-rotation 1s 4.2s cubic-bezier(0, 0, 1, 1) forwards;
+  animation: up-rotation 1s 4.2s cubic-bezier(0, 0, 1, 1) forwards;
 }
-@keyframes up-rotation {
+@-webkit-keyframes up-rotation {
   100% {
     transform: rotateZ(-4deg);
   }
 }
-@-webkit-keyframes up-rotation {
+@keyframes up-rotation {
   100% {
     transform: rotateZ(-4deg);
   }
@@ -153,8 +153,8 @@
 }
 
 .landing-photo {
-  animation: no-transform 2s 3.25s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   -webkit-animation: no-transform 2s 3.25s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  animation: no-transform 2s 3.25s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   border-radius: 50%;
   background: url("../assets/profilePhoto4.2.jpg") no-repeat;
   background-position: top;
@@ -175,22 +175,8 @@
   right: 0;
   text-align: center;
   z-index: 10;
-  animation: pulsation 2s 5s ease-out infinite;
   -webkit-animation: pulsation 2s 5s ease-out infinite;
-}
-@keyframes pulsation {
-  0% {
-    opacity: 1;
-    transform: none;
-  }
-  50% {
-    opacity: 0.8;
-    transform: scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
+  animation: pulsation 2s 5s ease-out infinite;
 }
 @-webkit-keyframes pulsation {
   0% {
@@ -206,12 +192,26 @@
     transform: none;
   }
 }
+@keyframes pulsation {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 .landing-down-arrow img {
-  animation: no-transform 1s 4.2s ease-out forwards;
   -webkit-animation: no-transform 1s 4.2s ease-out forwards;
+  animation: no-transform 1s 4.2s ease-out forwards;
   opacity: 0;
-  transform: translateY(4rem);
   -webkit-transform: translateY(4rem);
+  transform: translateY(4rem);
 }
 
 .about-me {
@@ -248,18 +248,18 @@
 }
 
 .landing-left-slide-animation {
-  animation: no-transform 1.2s 2.75s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   -webkit-animation: no-transform 1.2s 2.75s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  animation: no-transform 1.2s 2.75s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   opacity: 0;
   transform: translateY(-8rem) scale(0.8);
 }
-@keyframes no-transform {
+@-webkit-keyframes no-transform {
   100% {
     opacity: 1;
     transform: none;
   }
 }
-@-webkit-keyframes no-transform {
+@keyframes no-transform {
   100% {
     opacity: 1;
     transform: none;
