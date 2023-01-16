@@ -33,9 +33,11 @@ export default function Landing() {
         <Particles
           id="tsparticles"
           init={particlesInit}
+          style={{position: "absolute", top: "0px", left: "0px", zIndex: 0, pointerEvents: "initial" }}
           loaded={particlesLoaded}
           options={{
             // fpsLimit: 120,
+            fullScreen: false,
             interactivity: {
               events: {
                 onhover: {
