@@ -89,17 +89,19 @@
   perspective: 100px;
 }
 .home:after {
-  position: absolute;
-  content: "";
-  left: -5%;
-  right: -5%;
-  top: 90%;
-  height: 40rem;
-  background: #151515;
-  -webkit-transform-origin: 0 0; 
-  transform-origin: 0 0;
   -webkit-animation: up-rotation 1s 4.2s cubic-bezier(0, 0, 1, 1) forwards;
   animation: up-rotation 1s 4.2s cubic-bezier(0, 0, 1, 1) forwards;
+  background: #151515;
+  content: "";
+  height: 40rem;
+  left: -5%;
+
+  position: absolute;
+  right: -5%;
+  top: 90%;
+  -webkit-transform-origin: 0 0; 
+  transform-origin: 0 0;
+  z-index: 2;
 }
 @-webkit-keyframes up-rotation {
   100% {
