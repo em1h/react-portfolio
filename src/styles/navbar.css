@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  font-family: Oxanium, sans-serif;
+  color: #151515;
+  letter-spacing: 0.07em;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 1.1vw;
+  animation: no-transform 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
+}
+@keyframes no-transform {
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.name {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.pop-in-animation {
+  animation: no-transform 1s 5s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+  transform: translateY(-4rem) scale(0.8);
+}
+
+.nav a:hover {
+  transition: 0.25s ease-out;
+  opacity: 0.8;
+  border-bottom: 5px solid #f57c00;
+}

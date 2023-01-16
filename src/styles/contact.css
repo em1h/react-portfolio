@@ -1,0 +1,118 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  margin: 0 50px;
+}
+.icons {
+  height: 100%;
+  width: 50%;
+  font-size: 40px;
+  color: #151515;
+  line-height: 80px;
+  transition: 0.5s;
+}
+ul li a {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  text-align: center;
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+}
+ul li a::before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #151515;
+  transition: 0.5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+ul li a:after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #151515;
+  transition: 0.5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+ul li a:hover {
+  /* TODO:  */
+  transform: perspective(1000px) rotate(-30deg) skew(25deg)
+    translate(20px, -20px);
+}
+.contact-title {
+  display: grid;
+  place-content: center;
+  height: 15%;
+  font-size: 3vw;
+  color: #ffa270;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+  font-family: Oxanium;
+  transition: 0.5s;
+  cursor: default;
+}
+.contact-title:hover {
+  color: #151515;
+}
+.text{
+  font-size: 1.5vw;
+  cursor: default;
+}
+
+.git-li a:hover{
+  background-color: #24292e;
+}
+.mail-li a:hover{
+    background-color: #dd4b39;
+}
+.ln-li a:hover{
+    background-color: #0077B5;
+}
+ul li:hover .git{
+    color: whitesmoke;
+}
+ul li:hover .mail{
+    color: whitesmoke;
+}
+ul li:hover .ln{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80%;
+  }
+  ul li{
+    margin-top: 10vw;
+  }
+  .contact-title{
+    font-size: 8vw;
+    text-align: center;
+    width: 80%;
+  }
+  .text{
+    font-size: 4vw;
+    margin-top: 5rem;
+  }
+}

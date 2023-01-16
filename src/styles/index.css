@@ -1,0 +1,27 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap'); */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #151515;
+}
+::-webkit-scrollbar-thumb {
+  background: #f57c00;
+}
+
+a {
+  color: #151515;
+  text-decoration: none;
+}
