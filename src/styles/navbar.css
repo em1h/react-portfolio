@@ -11,8 +11,15 @@
   padding-left: 5%;
   font-size: 1.1vw;
   animation: no-transform 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  -webkit-animation: no-transform 2s 5s cubic-bezier(0, 0.5, 0, 1) forwards;
 }
 @keyframes no-transform {
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@-webkit-keyframes no-transform {
   100% {
     opacity: 1;
     transform: none;
@@ -37,6 +44,7 @@
 
 .pop-in-animation {
   animation: no-transform 1s 5s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  -webkit-animation: no-transform 1s 5s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
   opacity: 0;
   transform: translateY(-4rem) scale(0.8);
 }
