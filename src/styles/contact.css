@@ -110,9 +110,10 @@ ul li:hover .ln{
     font-size: 8vw;
     text-align: center;
     width: 80%;
+    height: 100%;
   }
   .text{
-    font-size: 4vw;
-    margin-top: 5rem;
+    font-size: 5vw;
+    /* margin-top: 5rem; */
   }
 }

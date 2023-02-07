@@ -267,3 +267,62 @@
     transform: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .landing-wrapper {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-top: 80px;
+  }
+
+  .landing-left {
+    flex: none;
+    width: 100%;
+    height: 10%;
+    padding-bottom: 0px;
+    order: 2;
+    margin-top: 11vw;
+    font-size: 4.5vw;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .landing-left-content {
+    padding: 0;
+    border-left: #151515 5px solid;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+      1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .landing-right {
+    padding-bottom: 0px;
+    flex: none;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .landing-photo {
+    width: 72vw;
+    height: 72vw;
+    z-index: 1;
+  }
+
+  .about-me {
+    height: 82rem;
+    gap: 1rem;
+  }
+
+  .projects {
+    height: 110vh;
+  }
+
+  .contact{
+    height: 100vh;
+  }
+}

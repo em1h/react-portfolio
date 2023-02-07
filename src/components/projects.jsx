@@ -38,6 +38,19 @@ export default function Projects() {
             <h1>Coming Soon...</h1>
           </div>
         </div>
+        <a
+          className="gitBtn-wrapper-empty"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="github-button"
+            aria-hidden="true"
+            icon={faGithub}
+          />
+          <p>Repository</p>
+        </a>
         <div className="card-empty">
           <div className="img-card-empty">
           </div>
@@ -45,6 +58,19 @@ export default function Projects() {
             <h1>Coming Soon...</h1>
           </div>
         </div>
+        <a
+          className="gitBtn-wrapper-empty"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="github-button"
+            aria-hidden="true"
+            icon={faGithub}
+          />
+          <p>Repository</p>
+        </a>
       </div>
     </>
   )

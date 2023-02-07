@@ -13,9 +13,9 @@ export default function Navbar() {
                 <div className="pop-in-animation">
                     <a href="#about-me-section">About</a>
                 </div>
-                    <div className="pop-in-animation">
-                <a href="#projects-section">Projects</a>
-                    </div>
+                <div className="pop-in-animation">
+                    <a href="#projects-section">Projects</a>
+                </div>
                 <div className="pop-in-animation">
                     <a href="#contact-section">Contact</a>
                 </div>

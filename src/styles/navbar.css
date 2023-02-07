@@ -54,3 +54,36 @@
   opacity: 0.8;
   border-bottom: 5px solid #f57c00;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    height: 15%;
+    flex-wrap: wrap;
+  }
+
+  .name {
+    width: 100%;
+    flex: none;
+    justify-content: center;
+    align-items: flex-end;
+    height: 45%;
+    font-size: 3.7vw;
+  }
+
+  .links {
+    height: 55%;
+    flex: none;
+    width: 100%;
+    font-size: 4.5vw;
+  }
+
+  .links > * {
+    border-right: #151515 2px solid;
+    padding-right: 5%;
+  }
+
+  .links div:last-child {
+    border-right: none;
+    padding-right: 0%;
+  }
+}
