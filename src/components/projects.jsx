@@ -18,7 +18,6 @@ export default function Projects() {
             <p>Youtube video player using Youtube API.</p>
             <a
               className="gitBtn-wrapper"
-              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
