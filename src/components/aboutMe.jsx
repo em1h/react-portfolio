@@ -44,7 +44,7 @@ export default function AboutMe() {
         <div className="about-me-main-content">
           <div className="about-me-text">
             <div>
-              +2.5l years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
+              +2.5 years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
               I've participated in different industry contexts such as e-commerce products, milk production industry, video streaming, and drones; forming part of small and large teams ranging from 3 to 30 members.
             </div>
             <div>
