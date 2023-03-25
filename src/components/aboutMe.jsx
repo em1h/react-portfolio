@@ -12,21 +12,23 @@ var skills = [
   "JavaScript",
   "ES6",
   "Redux",
-  "Storybook",
+  "Redux-Saga",
   "Jest",
   "CSS",
   "styled-components",
   "Material UI",
   "Sass",
+  "Storybook",
+  "Node.js",
   "Express.js",
   "Sequelize",
   "Algorithms",
   "Data Structures",
 ]
 var softSkills = [
-  "Fast Learner",
   "Problem Solving",
-  "Adaptability",
+  "High adaptability",
+  "Fast Learner",
 ]
 
 export default function AboutMe() {
@@ -44,7 +46,7 @@ export default function AboutMe() {
         <div className="about-me-main-content">
           <div className="about-me-text">
             <div>
-              +2.5 years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
+              3 years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
               I've participated in different industry contexts such as e-commerce products, milk production industry, video streaming, and drones; forming part of small and large teams ranging from 3 to 30 members.
             </div>
             <div>
