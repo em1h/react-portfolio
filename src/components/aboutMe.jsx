@@ -22,6 +22,7 @@ var skills = [
   "Node.js",
   "Express.js",
   "Sequelize",
+  "PostgreSQL",
   "Algorithms",
   "Data Structures",
 ]
@@ -47,11 +48,11 @@ export default function AboutMe() {
           <div className="about-me-text">
             <div>
               3 years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
-              I've participated in different industry contexts such as e-commerce products, milk production industry, video streaming, and drones; forming part of small and large teams ranging from 3 to 30 members.
+              I've participated in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, forming part of small and large teams ranging from 3 to 30 members.
             </div>
             <div>
               Passionate about 🙌 <strong>React</strong> and <strong>CSS</strong> 🙌, with a focus on pixel perfection, responsiveness, and UX.
-              I love working on projects that involve modern technologies and I enjoy staying up-to-date with the latest features released and best practices in front-end development.
+              I like to challenge myself by working with the latest technologies and staying up-to-date with the latest features released in the front-end world.
             </div>
           </div>
         </div>
@@ -79,12 +80,12 @@ export default function AboutMe() {
             <WorkCard
               duration="Dec 2021 - Present"
               title="Front-end Developer at CodigoDelSur"
-              description="Front-end development for an international software factory called Codigo del Sur in which we provide digital solutions for customers mainly from the US, but consumed all over the world."
+              description="international software factory called Codigo del Sur in which we provide digital solutions for customers mainly from the US. Experience in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, forming part of small and large teams ranging from 3 to 30 members."
             />
             <WorkCard
               duration="Sep 2020 - Dec 2021"
               title="Full Stack Developer at Niveltic"
-              description="eCommerce for a recognized market based in Argentina called La Anonima (laanonima.com.ar/), and other smaller sites."
+              description="eCommerce for a recognized market from Argentina called “La Anonima” (laanonima.com.ar/), and other smaller sites. Front-end using JavaScript vanilla, jQuery and CSS."
             />
           </div>
         </div>
