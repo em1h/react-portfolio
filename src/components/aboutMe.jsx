@@ -83,9 +83,9 @@ export default function AboutMe() {
               description="international software factory called Codigo del Sur in which we provide digital solutions for customers mainly from the US. Experience in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, forming part of small and large teams ranging from 3 to 30 members."
             />
             <WorkCard
-              duration="Sep 2020 - Dec 2021"
+              duration="Jul 2020 - Dec 2021"
               title="Full Stack Developer at Niveltic"
-              description="eCommerce for a recognized market from Argentina called “La Anonima” (laanonima.com.ar/), and other smaller sites. Front-end using JavaScript vanilla, jQuery and CSS."
+              description="eCommerce for a recognized market from Argentina called “La Anonima” (laanonima.com.ar/), and other smaller sites. Front-end using React, JavaScript vanilla, jQuery and CSS."
             />
           </div>
         </div>
