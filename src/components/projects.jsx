@@ -14,7 +14,7 @@ export default function Projects() {
             <img src={ytChallenge} />
           </div>
           <div className="info-card">
-            <h1>CodigoDelSur YouTube Challenge</h1>
+            <h1>YouTube Video Player</h1>
             <p>Youtube video player using Youtube API.</p>
             <a
               className="gitBtn-wrapper"

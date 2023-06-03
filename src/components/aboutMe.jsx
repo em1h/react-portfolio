@@ -11,9 +11,9 @@ var skills = [
   "TypeScript",
   "JavaScript",
   "ES6",
-  "Redux",
   "Redux-Saga",
   "Jest",
+  "React Testing Library",
   "CSS",
   "styled-components",
   "Material UI",
@@ -21,6 +21,7 @@ var skills = [
   "Storybook",
   "Node.js",
   "Express.js",
+  "Mocha",
   "Sequelize",
   "PostgreSQL",
   "Algorithms",
@@ -47,12 +48,11 @@ export default function AboutMe() {
         <div className="about-me-main-content">
           <div className="about-me-text">
             <div>
-              3 years experience <strong>Front-end Developer</strong> and advanced student of <strong>Computer Engineering</strong>.
-              I've participated in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, forming part of small and large teams ranging from 3 to 30 members.
+              3 years experience <strong>Front-end Developer</strong>. Experience in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, with the ability to easily adapt and learn on the go.
             </div>
             <div>
               Passionate about 🙌 <strong>React</strong> and <strong>CSS</strong> 🙌, with a focus on pixel perfection, responsiveness, and UX.
-              I like to challenge myself by working with the latest technologies and staying up-to-date with the latest features released in the front-end world.
+              I like to challenge myself by working with the latest tech trends and stay uo-to-date with them in order to find new and better ways to perform my work.
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function AboutMe() {
             <WorkCard
               duration="Dec 2021 - Present"
               title="Front-end Developer at CodigoDelSur"
-              description="international software factory called Codigo del Sur in which we provide digital solutions for customers mainly from the US. Experience in several projects across different types of industries such as eCommerces, video streaming, drones, and the dairy industry, forming part of small and large teams ranging from 3 to 30 members."
+              description={`International software factory in which we provide digital solutions for customers from the US. Several projects participating in small and large teams ranging from 3 to 30 members. Experience in dynamic enviroments, working in proactive and autonomous teams capable of organizing and coordinating tasks together to meet the goals.`}
             />
             <WorkCard
               duration="Jul 2020 - Dec 2021"
